@@ -1,6 +1,6 @@
 package stacksandqueues;
 
-public class Stack {
+public class MyStack {
     private static class Node {
         private int data;
 

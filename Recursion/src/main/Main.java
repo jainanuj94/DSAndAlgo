@@ -24,5 +24,9 @@ public class Main {
         System.out.println(ConnectedCells.getBiggestRegion(matrix));
         System.out.println("******************Connected Cells*********************");
 
+        System.out.println("******************Counting Ways*********************");
+        int[] coins = {10, 5, 3, 2};
+        System.out.println("Counting number of ways: " + CoinChange.makeChange(coins, 10));
+        System.out.println("******************Counting Ways*********************");
     }
 }
